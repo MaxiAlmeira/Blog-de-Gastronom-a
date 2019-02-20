@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Felipa|Open+Sans+Condensed:300');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+
+body{
+  background-image: url(../imagenes/fondo1.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1 {
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: 'Felipa', cursive;
+}
+
+.letra-titulos {
+  font-size: 17px;
+  font-weight: 200;
+  font-family: 'Felipa', cursive;
+}
+
+.articulos h1 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: black;
+  font-size: 30px;
+}
+
+.articulos h2 {
+  color: coral;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 18px;
+}
+
+.articulos p {
+  font-family: 'Quicksand', sans-serif;
+  padding: 15px 0px;
+  text-align: justify;
+}
+
+.texto-centrado{
+  text-align: center;
+}
+
+.texto-a-la-derecha{
+  text-align: right;
+}
+
+.links-de-menu li a{
+  color:black;
+  font-family: 'Quicksand', sans-serif;
+  border-bottom: 1px solid #CACACA;
+}
+
+.links-de-menu li:hover{
+  background: #CACACA;
+}
+
+.Historial h2 {
+  color: coral;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.Historial li a{
+  color: coral;
+  font-size: 15px;
+}
+
+.Historial li:hover{
+  border: 1px solid coral;
+  border-radius: 3px;
+}
+
+.fondo {
+  background: rgba(0,0,0, 0.2);
+}
+
+.comment-done{
+  padding: 10px;
+  border-top: 1px solid lightpink;
+  border-bottom: 1px solid lightpink;
+}
+
+.comment-done p {
+  font-weight: 100;
+  font-size: 14px;
+}
